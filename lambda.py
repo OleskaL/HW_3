@@ -7,6 +7,8 @@
 
 foo = lambda x, y: x if x < y else y
 
+
+
 # 19*. Convert (8) to regular function
 # foo = lambda x, y, z: z if y < x and x > z else y
 
