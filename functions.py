@@ -3,9 +3,11 @@
 print(sorted(lst_to_sort))
 
 
+
 # 21. Sort lst_to_sort from max to min
 
 print(sorted(lst_to_sort, reverse=True))
+
 
 
 # 22. Use map and lambda to update the lst_to_sort by multiply each element by 2
@@ -15,8 +17,10 @@ print(lst_to_sort_updated)
 
 
 # 23*. Raise each list number to the corresponding number on another list:
+
 list_A = [2, 3, 4]
 list_B = [5, 6, 7]
+
 raised_lists_numbers = list(map(lambda x, y: x**y, list_A, list_B))
 print(raised_lists_numbers)
 
