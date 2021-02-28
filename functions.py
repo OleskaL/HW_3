@@ -1,3 +1,5 @@
+lst_to_sort = [5, 18, 1, 24, 33, 15, 13, 55]
+
 # 20. Sort lst_to_sort from min to max
 
 print(sorted(lst_to_sort))
